@@ -78,3 +78,4 @@ jobs:
                   API_TOKEN: ${{ secrets.BUILDS_TOKEN }}
                   GH_REPO: Vencord/builds
                   USERNAME: GitHub-Actions
+                  workflow_dispatch
