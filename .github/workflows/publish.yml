@@ -1,4 +1,5 @@
 name: Release Browser Extension
+workflow_dispatch:
 on:
     push:
         tags:
