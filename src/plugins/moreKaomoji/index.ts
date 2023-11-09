@@ -37,6 +37,8 @@ export default definePlugin({
         { name: "confused", description: "(•ิ_•ิ)?" },
         { name: "sleeping", description: "(ᴗ_ᴗ)" },
         { name: "laughing", description: "o(≧▽≦)o" },
+        { name: "fuck", description: ">:(" },
+        { name: "happy", description: ":D" },
 
     ].map(data => ({
         ...data,
