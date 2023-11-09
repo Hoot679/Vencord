@@ -10,6 +10,8 @@ on:
             - scripts/build/**
             - package.json
             - pnpm-lock.yaml
+            
+    workflow_dispatch:
 env:
     FORCE_COLOR: true
 
@@ -78,4 +80,3 @@ jobs:
                   API_TOKEN: ${{ secrets.BUILDS_TOKEN }}
                   GH_REPO: Vencord/builds
                   USERNAME: GitHub-Actions
-                  workflow_dispatch
